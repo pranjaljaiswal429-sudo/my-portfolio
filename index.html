@@ -3,332 +3,453 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pranjal Jaiswal | Full-Stack & Python Developer</title>
+    <title>Pranjal Jaiswal | Straw Hat Cinematic Portfolio</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
 
-    <!-- AMBIENT BLUE GLOW ORBS -->
-    <div class="glow-orb orb-1"></div>
-    <div class="glow-orb orb-2"></div>
-
-    <!-- STICKY NAVBAR -->
-    <nav>
+    <!-- STICKY PAGE NAVIGATION (WITH STRAW HAT THEME) -->
+    <nav class="crew-nav">
         <div class="logo">
-            <i class="fa-solid fa-terminal"></i> PRANJAL<span>.DEV</span>
+            <i class="fa-solid fa-skull-crossbones"></i> PRANJAL<span>.DEV</span>
         </div>
-        <div class="nav-links">
-            <a href="#profile">About</a>
-            <a href="#projects">Projects</a>
-            <a href="#certificates">Certificates</a>
-            <a href="#achievements">Extracurricular</a>
-            <a href="#contact" class="nav-contact-btn">Contact</a>
+        <div class="crew-links">
+            <a href="#about" title="About">🏴‍☠️ About</a>
+            <a href="#projects" title="Projects">⚔️ Projects</a>
+            <a href="#skills" title="Skills">🗺️ Skills</a>
+            <a href="#workflow" title="Workflow">🎯 Workflow</a>
+            <a href="#contributions" title="Contributions">🔥 Contributions</a>
+            <a href="#certifications" title="Certifications">🌸 Certifications</a>
+            <a href="#education" title="Education">📚 Education</a>
+            <a href="#buildlog" title="Build Log">🤖 Build Log</a>
+            <a href="#arts" title="Arts">🎻 Arts</a>
+            <a href="#contact" title="Contact">🌊 Contact</a>
         </div>
     </nav>
 
-    <!-- SECTION 1: PROFESSIONAL HERO PROFILE -->
-    <section id="profile" class="page-section">
-        <div class="hero-grid">
-            <div class="hero-left">
-                <div class="status-badge">
-                    <span class="pulse-dot"></span> B.Tech CSE (AI-ML Department) @ Babu Banarasi Das Northern India Institute of Technology (BBDNIIT)
-                </div>
+    <!-- MAIN SLIDER CONTAINER -->
+    <div class="portfolio-slider-container">
 
-                <h1>BUILDING SCALABLE <span class="gradient-blue">WEB SYSTEMS & PYTHON BACKENDS.</span></h1>
-                
-                <p class="hero-bio">
-                    I am a full-stack developer and second-year B.Tech student in the AI-ML Department at Babu Banarasi Das Northern India Institute of Technology (BBDNIIT). I specialize in cloud-backed web applications, MongoDB vector search architectures, and Python backends using FastAPI.
-                </p>
-
-                <div class="hero-quick-highlights">
-                    <div class="qh-item"><i class="fa-solid fa-code"></i> Full-Stack Architecture</div>
-                    <div class="qh-item"><i class="fa-solid fa-database"></i> MongoDB & Vector Search</div>
-                    <div class="qh-item"><i class="fa-brands fa-python"></i> Python FastAPI Backend</div>
-                </div>
-
-                <div class="hero-btns">
-                    <a href="#projects" class="btn-primary">
-                        <i class="fa-solid fa-rocket"></i> View Featured Projects
-                    </a>
-                    <a href="#contact" class="btn-outline">
-                        <i class="fa-regular fa-envelope"></i> Get In Touch
-                    </a>
-                </div>
-            </div>
-
-            <div class="hero-right">
-                <div class="player-frame">
-                    <div class="photo-container">
-                        <!-- PERMANENT PHOTO: Make sure 'profile.jpg' is in your folder -->
-                        <img id="userProfilePic" src="profile.jpg" alt="Pranjal Jaiswal" onerror="this.src='https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=700&q=80'">
-                    </div>
-                    <div class="frame-caption">
-                        <strong>Pranjal Jaiswal</strong>
-                        <small>BBDNIIT • AI-ML Department</small>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- SECTION 2: PROJECTS & CASE STUDY -->
-    <section id="projects" class="page-section">
-        <div class="section-header">
-            <span class="section-tag blue-tag">FEATURED WORK</span>
-            <h2>ENGINEERED <span class="gradient-blue">SOLUTIONS</span></h2>
-            <p>Production-ready applications built to solve real-world operational challenges with clean architecture.</p>
-        </div>
-
-        <div class="project-showcase">
-            <div class="project-visual">
-                <div class="app-mockup-header">
-                    <span class="dot red"></span><span class="dot yellow"></span><span class="dot green"></span>
-                    <span class="mockup-url">swalambhi-microfinance.onrender.com</span>
-                </div>
-                <div class="app-mockup-body">
-                    <div class="mockup-kpi-row">
-                        <div class="kpi-card">
-                            <small>Deployment</small>
-                            <h4>Cloud Hosted</h4>
-                            <span class="trend-up">Render Production</span>
+        <!-- SECTION 1: ABOUT (Luffy Vibe) -->
+        <section id="about" class="page-section character-section luffy-theme">
+            <div class="char-bg-overlay" style="background-image: url('images/luffy.jpg');"></div>
+            <div class="section-content-wrapper">
+                <div class="section-context-tag">Section 01 / 10 • <strong>About & Introduction (Luffy Theme)</strong></div>
+                <div class="hero-grid">
+                    <div class="hero-left">
+                        <div class="status-badge">
+                            <span class="pulse-dot"></span> B.Tech CSE (AI-ML Department) @ BBDNIIT
                         </div>
-                        <div class="kpi-card">
-                            <small>Core Engine</small>
-                            <h4>Bi-Weekly</h4>
-                            <span class="trend-blue">Automated Fines</span>
+                        <h1>BUILDING SCALABLE <span class="gradient-blue">WEB SYSTEMS & PYTHON BACKENDS.</span></h1>
+                        <p class="hero-bio">
+                            I am a full-stack developer and second-year B.Tech student in the AI-ML Department at Babu Banarasi Das Northern India Institute of Technology (BBDNIIT). I specialize in cloud-backed web applications, MongoDB vector search architectures, and Python backends using FastAPI.
+                        </p>
+                        <div class="hero-quick-highlights">
+                            <div class="qh-item"><i class="fa-solid fa-code"></i> Full-Stack Architecture</div>
+                            <div class="qh-item"><i class="fa-solid fa-database"></i> MongoDB & Vector Search</div>
+                            <div class="qh-item"><i class="fa-brands fa-python"></i> Python FastAPI Backend</div>
+                        </div>
+                        <div class="hero-btns">
+                            <a href="#projects" class="btn-primary"><i class="fa-solid fa-rocket"></i> View Projects</a>
+                            <a href="#contact" class="btn-outline"><i class="fa-regular fa-envelope"></i> Get In Touch</a>
                         </div>
                     </div>
-                    <div class="m-item"><i class="fa-solid fa-id-card"></i> Aadhaar & PAN KYC Vault with Auto-Fill</div>
-                    <div class="m-item"><i class="fa-brands fa-whatsapp"></i> One-Tap WhatsApp Payment Reminders</div>
+                    <div class="hero-right">
+                        <div class="player-frame">
+                            <div class="photo-container">
+                                <img id="userProfilePic" src="profile.jpg" alt="Pranjal Jaiswal" onerror="this.src='https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=700&q=80'">
+                            </div>
+                            <div class="frame-caption">
+                                <strong>Pranjal Jaiswal</strong>
+                                <small>BBDNIIT • AI-ML Department</small>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
+        </section>
 
-            <div class="project-details">
-                <div class="project-type-badge">CLOUD FINTECH PLATFORM</div>
-                <h3>Swalambhi Microfinance Ledger</h3>
-                <p class="project-explanation">
-                    <strong>Problem & Solution:</strong> Manual ledger systems in microfinance lead to tracking errors and delayed collections. I engineered a cloud-hosted digital ledger that automates bi-weekly EMI scheduling, dynamic late fine calculations, and secure customer record keeping.
-                </p>
-                <div class="tech-pills">
-                    <span>Node.js / Express</span>
-                    <span>Python FastAPI Backend</span>
-                    <span>MongoDB Atlas</span>
-                    <span>Render Deployment</span>
+        <!-- SECTION 2: PROJECTS (Zoro Vibe) -->
+        <section id="projects" class="page-section character-section zoro-theme">
+            <div class="char-bg-overlay" style="background-image: url('images/zoro.jpg');"></div>
+            <div class="section-content-wrapper">
+                <div class="section-context-tag">Section 02 / 10 • <strong>Featured Projects (Zoro Theme)</strong></div>
+                <div class="section-header">
+                    <span class="section-tag blue-tag">FLAGSHIP APPLICATION</span>
+                    <h2>ENGINEERED <span class="gradient-blue">SOLUTIONS</span></h2>
+                    <p>Production-ready applications built with razor-sharp precision and clean architecture.</p>
                 </div>
-                <div class="project-actions">
-                    <button class="btn-blue" onclick="openAppSimulator()">
-                        <i class="fa-solid fa-sliders"></i> Test Live EMI Simulator
-                    </button>
-                    <a href="https://github.com/pranjaljaiswal429-sudo/swalambhi-microfinance" target="_blank" class="btn-outline">
-                        <i class="fa-brands fa-github"></i> Source Code
-                    </a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- SECTION 3: TECHNICAL CERTIFICATES -->
-    <section id="certificates" class="page-section">
-        <div class="section-header">
-            <span class="section-tag blue-tag">CREDENTIALS</span>
-            <h2>VERIFIED <span class="gradient-blue">CERTIFICATIONS</span></h2>
-            <p>Official technical credentials across databases, AI foundations, and core programming. Click any card to inspect verification details.</p>
-        </div>
-
-        <div class="cert-grid">
-            <div class="cert-card" onclick="openCertificateModal('Building AI-Powered Search with MongoDB Vector Search', 'MongoDB, Inc (Aug 01, 2026)', 'Successfully completed Building AI-Powered Search with MongoDB Vector Search fundamentals course.', 'https://www.credly.com/badges/5436d9e0-2b05-4bf3-ba4c-393e42f845d1')">
-                <div class="cert-ribbon">VERIFIED</div>
-                <div class="cert-icon"><i class="fa-solid fa-magnifying-glass-chart"></i></div>
-                <h4>Vector Search Fundamentals</h4>
-                <span class="cert-issuer">MongoDB, Inc • Aug 01, 2026</span>
-                <p>AI-Powered similarity search and vector indexing using MongoDB Atlas.</p>
-                <div class="cert-footer"><span class="badge-tag">Vector Search</span><span class="badge-tag">Credly</span></div>
-            </div>
-
-            <div class="cert-card" onclick="openCertificateModal('MongoDB Basics for Students', 'MongoDB, Inc (Aug 01, 2026)', 'Completed core database CRUD operations, document modeling, indexing, and cloud cluster deployment.', 'https://www.credly.com/badges/eef5fe91-8b7d-4bb7-b071-d8e4c9c45834')">
-                <div class="cert-ribbon">VERIFIED</div>
-                <div class="cert-icon"><i class="fa-solid fa-database"></i></div>
-                <h4>MongoDB Basics for Students</h4>
-                <span class="cert-issuer">MongoDB, Inc • Aug 01, 2026</span>
-                <p>Core database CRUD operations, document modeling, and cloud cluster setup.</p>
-                <div class="cert-footer"><span class="badge-tag">NoSQL</span><span class="badge-tag">Credly</span></div>
-            </div>
-
-            <div class="cert-card" onclick="openCertificateModal('TCS iON Career Edge - AI Foundation', 'Tata Consultancy Services (Jul 28, 2026)', 'Covered Introduction to AI, Generative AI Essentials, Prompt Engineering Basics, AI Tools, and Responsible AI.', '279681-30054693-1016')">
-                <div class="cert-ribbon">VERIFIED</div>
-                <div class="cert-icon"><i class="fa-solid fa-brain"></i></div>
-                <h4>TCS iON Career Edge - AI Foundation</h4>
-                <span class="cert-issuer">Tata Consultancy Services • Jul 28, 2026</span>
-                <p>Comprehensive course covering GenAI essentials, prompt engineering, and AI tools.</p>
-                <div class="cert-footer"><span class="badge-tag">TCS iON</span><span class="badge-tag">GenAI</span></div>
-            </div>
-
-            <div class="cert-card" onclick="openCertificateModal('TCS MasterCraft DataPlus', 'Tata Consultancy Services (Jul 28, 2026)', 'Successfully completed TCS MasterCraft DataPlus DataPlus Overview Course.', 'TCS MasterCraft Academy')">
-                <div class="cert-ribbon">VERIFIED</div>
-                <div class="cert-icon"><i class="fa-solid fa-table-columns"></i></div>
-                <h4>TCS MasterCraft DataPlus</h4>
-                <span class="cert-issuer">TCS MasterCraft Academy • Jul 28, 2026</span>
-                <p>DataPlus overview course completion certificate issued by TCS.</p>
-                <div class="cert-footer"><span class="badge-tag">MasterCraft</span><span class="badge-tag">DataPlus</span></div>
-            </div>
-
-            <div class="cert-card" onclick="openCertificateModal('AI and Cybersecurity Awareness', 'MPIT-CoE & TCS Foundation / TCS iON (Jul 22, 2026)', 'Completed Guinness World Records AI for All initiative course on AI and Cybersecurity Awareness.', '277082-30054693-1016')">
-                <div class="cert-ribbon">VERIFIED</div>
-                <div class="cert-icon"><i class="fa-solid fa-shield-halved"></i></div>
-                <h4>AI and Cybersecurity Awareness</h4>
-                <span class="cert-issuer">TCS iON & MPIT-CoE • Jul 22, 2026</span>
-                <p>Guinness World Records AI for All initiative training via TCS iON.</p>
-                <div class="cert-footer"><span class="badge-tag">Cybersecurity</span><span class="badge-tag">TCS iON</span></div>
-            </div>
-
-            <div class="cert-card" onclick="openCertificateModal('Generative AI Essentials', 'MPIT-CoE & TCS Foundation / TCS iON (Jul 22, 2026)', 'Completed Generative AI Essentials course offered under the AI for All program.', '277212-30054693-1016')">
-                <div class="cert-ribbon">VERIFIED</div>
-                <div class="cert-icon"><i class="fa-solid fa-wand-magic-sparkles"></i></div>
-                <h4>Generative AI Essentials</h4>
-                <span class="cert-issuer">TCS iON & MPIT-CoE • Jul 22, 2026</span>
-                <p>Core generative AI models and application fundamentals via TCS iON.</p>
-                <div class="cert-footer"><span class="badge-tag">GenAI</span><span class="badge-tag">TCS iON</span></div>
-            </div>
-
-            <div class="cert-card" onclick="openCertificateModal('YUVA AI For All', 'IndiaAI & TCS iON (Feb 08, 2026)', 'Successfully completed the YUVA AI For All course through TCS ION offered by IndiaAI.', 'IndiaAI / TCS iON')">
-                <div class="cert-ribbon">VERIFIED</div>
-                <div class="cert-icon"><i class="fa-solid fa-microchip"></i></div>
-                <h4>YUVA AI For All</h4>
-                <span class="cert-issuer">IndiaAI & TCS iON • Feb 08, 2026</span>
-                <p>National AI literacy initiative course completed via TCS iON.</p>
-                <div class="cert-footer"><span class="badge-tag">IndiaAI</span><span class="badge-tag">AI Literacy</span></div>
-            </div>
-
-            <div class="cert-card" onclick="openCertificateModal('AI Data Strategy with MongoDB', 'MongoDB, Inc (Apr 08, 2026)', 'Completed assessments on structuring modern NoSQL data pipelines for generative AI applications.', 'MDBr2g1vcytfk')">
-                <div class="cert-ribbon">VERIFIED</div>
-                <div class="cert-icon"><i class="fa-solid fa-chart-line"></i></div>
-                <h4>AI Data Strategy with MongoDB</h4>
-                <span class="cert-issuer">MongoDB, Inc • Apr 08, 2026</span>
-                <p>Structuring modern NoSQL data pipelines for generative AI applications.</p>
-                <div class="cert-footer"><span class="badge-tag">AI Strategy</span><span class="badge-tag">MongoDB</span></div>
-            </div>
-
-            <div class="cert-card" onclick="openCertificateModal('Building an App with Code Agents', 'MongoDB, Inc (Apr 08, 2026)', 'Successfully completed Building an App with Code Agents course by MongoDB.', 'MDBjveam9ttcx')">
-                <div class="cert-ribbon">VERIFIED</div>
-                <div class="cert-icon"><i class="fa-solid fa-robot"></i></div>
-                <h4>Building an App with Code Agents</h4>
-                <span class="cert-issuer">MongoDB, Inc • Apr 08, 2026</span>
-                <p>Training on building applications integrated with modern code agents.</p>
-                <div class="cert-footer"><span class="badge-tag">Code Agents</span><span class="badge-tag">MongoDB</span></div>
-            </div>
-
-            <div class="cert-card" onclick="openCertificateModal('Code Rush 1.0 Coding Sprint', 'Babu Banarasi Das Northern India Institute of Technology (BBDNIIT)', 'Certificate of Appreciation for active participation in the BBDNIIT Code Rush 1.0 coding sprint.', 'Nov 25, 2025')">
-                <div class="cert-ribbon" style="background:#38bdf8; color:#000;">EVENT</div>
-                <div class="cert-icon"><i class="fa-solid fa-code"></i></div>
-                <h4>Code Rush 1.0 Coding Sprint</h4>
-                <span class="cert-issuer">BBDNIIT • Nov 25, 2025</span>
-                <p>Active participation in the BBDNIIT Code Rush 1.0 Ultimate Coding Sprint.</p>
-                <div class="cert-footer"><span class="badge-tag">BBDNIIT</span><span class="badge-tag">Coding Sprint</span></div>
-            </div>
-
-            <div class="cert-card" onclick="openCertificateModal('5 Minute Typing Test', 'Typing.com (August 4, 2026)', 'Completed 5-minute typing test averaging 27 WPM with 97% accuracy.', 'August 4, 2026')">
-                <div class="cert-ribbon">SKILL TEST</div>
-                <div class="cert-icon"><i class="fa-solid fa-keyboard"></i></div>
-                <h4>Typing Speed Test Certificate</h4>
-                <span class="cert-issuer">Typing.com • Aug 04, 2026</span>
-                <p>Averaged 27 WPM with 97% accuracy.</p>
-                <div class="cert-footer"><span class="badge-tag">Typing.com</span><span class="badge-tag">27 WPM</span></div>
-            </div>
-
-            <div class="cert-card" onclick="openCertificateModal('Viksit UP @ 2047 Vision Document Contribution', 'Government of Uttar Pradesh', 'Certificate of Participation for valuable suggestions provided for the Viksit UP @ 2047 vision document.', 'UP Government')">
-                <div class="cert-ribbon" style="background:#38bdf8; color:#000;">GOVERNMENT</div>
-                <div class="cert-icon"><i class="fa-solid fa-landmark"></i></div>
-                <h4>Viksit UP @ 2047 Contribution</h4>
-                <span class="cert-issuer">Government of Uttar Pradesh</span>
-                <p>Participation certificate for contributing valuable suggestions to the Viksit UP @ 2047 Vision Document.</p>
-                <div class="cert-footer"><span class="badge-tag">Govt Initiative</span><span class="badge-tag">Uttar Pradesh</span></div>
-            </div>
-        </div>
-    </section>
-
-    <!-- SECTION 4: EXTRACURRICULAR & ARTS -->
-    <section id="achievements" class="page-section">
-        <div class="section-header">
-            <span class="section-tag blue-tag">LEADERSHIP & ARTS</span>
-            <h2>EXTRACURRICULAR <span class="gradient-blue">& PERFORMANCES</span></h2>
-            <p>Beyond coding: active involvement in street play writing & performance, creative writing, and stage comedy.</p>
-        </div>
-
-        <div class="achievements-timeline">
-            <div class="ach-card">
-                <div class="ach-icon"><i class="fa-solid fa-users-rays"></i></div>
-                <div class="ach-content">
-                    <span class="ach-date">STREET PLAY • WRITING & PERFORMING</span>
-                    <h3>Nukkad Natak Performances & Writing</h3>
-                    <p>Wrote original social-awareness scripts and actively performed in various Nukkad Natak productions on stage with our college mandali, raising social awareness and addressing critical issues.</p>
+                <div class="project-showcase">
+                    <div class="project-visual">
+                        <div class="app-mockup-header">
+                            <span class="dot red"></span><span class="dot yellow"></span><span class="dot green"></span>
+                            <span class="mockup-url">swalambhi-microfinance.onrender.com</span>
+                        </div>
+                        <div class="app-mockup-body">
+                            <div class="mockup-kpi-row">
+                                <div class="kpi-card"><small>Deployment</small><h4>Cloud Hosted</h4><span class="trend-up">Render Production</span></div>
+                                <div class="kpi-card"><small>Core Engine</small><h4>Bi-Weekly</h4><span class="trend-blue">Automated Fines</span></div>
+                            </div>
+                            <div class="m-item"><i class="fa-solid fa-id-card"></i> Aadhaar & PAN KYC Vault with Auto-Fill</div>
+                            <div class="m-item"><i class="fa-brands fa-whatsapp"></i> One-Tap WhatsApp Payment Reminders</div>
+                        </div>
+                    </div>
+                    <div class="project-details">
+                        <div class="project-type-badge">CLOUD FINTECH PLATFORM</div>
+                        <h3>Swalambhi Microfinance Ledger</h3>
+                        <p class="project-explanation">
+                            <strong>Problem & Solution:</strong> Manual ledger systems in microfinance lead to tracking errors and delayed collections. I engineered a cloud-hosted digital ledger that automates bi-weekly EMI scheduling, dynamic late fine calculations, and secure customer record keeping.
+                        </p>
+                        <div class="tech-pills">
+                            <span>Node.js / Express</span>
+                            <span>Python FastAPI Backend</span>
+                            <span>MongoDB Atlas</span>
+                            <span>Render Deployment</span>
+                        </div>
+                        <div class="project-actions">
+                            <button class="btn-blue" onclick="openAppSimulator()"><i class="fa-solid fa-sliders"></i> Test Live EMI Simulator</button>
+                            <a href="https://github.com/pranjaljaiswal429-sudo/swalambhi-microfinance" target="_blank" class="btn-outline"><i class="fa-brands fa-github"></i> Source Code</a>
+                        </div>
+                    </div>
                 </div>
             </div>
+        </section>
 
-            <div class="ach-card">
-                <div class="ach-icon"><i class="fa-solid fa-pen-nib"></i></div>
-                <div class="ach-content">
-                    <span class="ach-date">CREATIVE ARTS • INSPIRUS 4.0 (BBDNIIT)</span>
-                    <h3>Story Writing & Poster Making Excellence</h3>
-                    <p>Demonstrated creative writing and poster design excellence during the INSPIRUS 4.0 cultural festival at Babu Banarasi Das Northern India Institute of Technology (BBDNIIT).</p>
+        <!-- SECTION 3: SKILLS (Nami Vibe) -->
+        <section id="skills" class="page-section character-section nami-theme">
+            <div class="char-bg-overlay" style="background-image: url('images/nami.jpg');"></div>
+            <div class="section-content-wrapper">
+                <div class="section-context-tag">Section 03 / 10 • <strong>Technical Skills Stack (Nami Theme)</strong></div>
+                <div class="section-header">
+                    <span class="section-tag blue-tag">NAVIGATION MAP</span>
+                    <h2>TECHNICAL <span class="gradient-blue">SKILLS STACK</span></h2>
+                    <p>Categorized technological proficiencies charted across modern software domains.</p>
+                </div>
+                <div class="cert-grid">
+                    <div class="cert-card">
+                        <div class="cert-ribbon">STACK</div>
+                        <div class="cert-icon"><i class="fa-solid fa-laptop-code"></i></div>
+                        <h4>Frontend & UI</h4>
+                        <span class="cert-issuer">Responsive Interfaces</span>
+                        <p>HTML5, Modern CSS3, JavaScript (ES6+), Interactive DOM manipulation, PWA standards.</p>
+                        <div class="cert-footer"><span class="badge-tag">UI/UX</span><span class="badge-tag">Responsive</span></div>
+                    </div>
+                    <div class="cert-card">
+                        <div class="cert-ribbon">STACK</div>
+                        <div class="cert-icon"><i class="fa-brands fa-python"></i></div>
+                        <h4>Backend & APIs</h4>
+                        <span class="cert-issuer">Server-Side Systems</span>
+                        <p>Python FastAPI, Node.js, Express.js, RESTful microservices, and asynchronous endpoints.</p>
+                        <div class="cert-footer"><span class="badge-tag">FastAPI</span><span class="badge-tag">Node.js</span></div>
+                    </div>
+                    <div class="cert-card">
+                        <div class="cert-ribbon">STACK</div>
+                        <div class="cert-icon"><i class="fa-solid fa-database"></i></div>
+                        <h4>Databases & AI Vector</h4>
+                        <span class="cert-issuer">Data Storage & Search</span>
+                        <p>MongoDB Atlas, NoSQL Document Modeling, Vector Search Indexing, and AI data strategies.</p>
+                        <div class="cert-footer"><span class="badge-tag">MongoDB</span><span class="badge-tag">Vector Search</span></div>
+                    </div>
                 </div>
             </div>
+        </section>
 
-            <div class="ach-card">
-                <div class="ach-icon"><i class="fa-solid fa-microphone-lines"></i></div>
-                <div class="ach-content">
-                    <span class="ach-date">STAGE COMEDY • IIT ROORKEE ZONALS</span>
-                    <h3>Stand-Up Comedy Performance</h3>
-                    <p>Crafted and performed an original comedic stand-up monologue titled "Bhartiya Krantikari Vidyalaya" with custom concluding shayari for the IIT Roorkee Zonals open mic stage.</p>
+        <!-- SECTION 4: WORKFLOW (Usopp Vibe) -->
+        <section id="workflow" class="page-section character-section usopp-theme">
+            <div class="char-bg-overlay" style="background-image: url('images/usopp.jpg');"></div>
+            <div class="section-content-wrapper">
+                <div class="section-context-tag">Section 04 / 10 • <strong>Development Workflow (Usopp Theme)</strong></div>
+                <div class="section-header">
+                    <span class="section-tag blue-tag">ENGINEERING BLUEPRINT</span>
+                    <h2>DEVELOPMENT <span class="gradient-blue">WORKFLOW</span></h2>
+                    <p>From conceptual blueprint to production-ready deployment.</p>
+                </div>
+                <div class="achievements-timeline">
+                    <div class="ach-card">
+                        <div class="ach-icon"><i class="fa-solid fa-lightbulb"></i></div>
+                        <div class="ach-content"><span class="ach-date">PHASE 01 • IDEATION</span><h3>Problem Identification</h3><p>Analyzing operational inefficiencies in local systems (such as microfinance ledgers) to design targeted digital solutions.</p></div>
+                    </div>
+                    <div class="ach-card">
+                        <div class="ach-icon"><i class="fa-solid fa-compass-drafting"></i></div>
+                        <div class="ach-content"><span class="ach-date">PHASE 02 • ARCHITECTURE</span><h3>Database & System Design</h3><p>Structuring schema designs in MongoDB and mapping out scalable backend routes using Python FastAPI.</p></div>
+                    </div>
+                    <div class="ach-card">
+                        <div class="ach-icon"><i class="fa-solid fa-cloud-arrow-up"></i></div>
+                        <div class="ach-content"><span class="ach-date">PHASE 03 • DEPLOYMENT</span><h3>Cloud Launch & Testing</h3><p>Deploying applications live via cloud platforms like Render and GitHub Pages with continuous validation.</p></div>
+                    </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- SECTION 5: CONTACT & FOOTER -->
-    <section id="contact" class="page-section" style="padding-bottom: 60px;">
-        <div class="section-header">
-            <span class="section-tag blue-tag">GET IN TOUCH</span>
-            <h2>LET'S BUILD <span class="gradient-blue">TOGETHER</span></h2>
-            <p>Have a project in mind, an opportunity, or just want to connect? Reach out directly.</p>
-        </div>
-
-        <div class="contact-card">
-            <div class="contact-info">
-                <h3>Pranjal Jaiswal</h3>
-                <p>Full-Stack Developer & B.Tech CSE (AI-ML Department) Student at Babu Banarasi Das Northern India Institute of Technology (BBDNIIT)</p>
-                <div class="contact-links-row">
-                    <a href="mailto:pranjaljaiswal429@gmail.com" class="contact-btn"><i class="fa-solid fa-envelope"></i> Email Me</a>
-                    <a href="https://www.linkedin.com/in/pranjal-jaiswal-a1888936a" target="_blank" class="contact-btn"><i class="fa-brands fa-linkedin"></i> LinkedIn</a>
-                    <a href="https://github.com/pranjaljaiswal429-sudo" target="_blank" class="contact-btn"><i class="fa-brands fa-github"></i> GitHub</a>
-                    <a href="https://www.instagram.com/pranjal_06.15" target="_blank" class="contact-btn"><i class="fa-brands fa-instagram"></i> Instagram</a>
+        <!-- SECTION 5: CONTRIBUTIONS (Sanji Vibe) -->
+        <section id="contributions" class="page-section character-section sanji-theme">
+            <div class="char-bg-overlay" style="background-image: url('images/sanji.jpg');"></div>
+            <div class="section-content-wrapper">
+                <div class="section-context-tag">Section 05 / 10 • <strong>Team Contributions (Sanji Theme)</strong></div>
+                <div class="section-header">
+                    <span class="section-tag blue-tag">COLLABORATIVE EXECUTION</span>
+                    <h2>TEAM CONTRIBUTIONS <span class="gradient-blue">& EXECUTIONS</span></h2>
+                    <p>Delivering reliable technical execution and collaborative project support.</p>
+                </div>
+                <div class="achievements-timeline">
+                    <div class="ach-card">
+                        <div class="ach-icon"><i class="fa-solid fa-users-gear"></i></div>
+                        <div class="ach-content"><span class="ach-date">COLLABORATIVE ENGINEERING</span><h3>Peer Project Contributions</h3><p>Actively contributing to team development sprints, debugging backend logic, and integrating responsive UI components for group projects.</p></div>
+                    </div>
+                    <div class="ach-card">
+                        <div class="ach-icon"><i class="fa-solid fa-handshake-angle"></i></div>
+                        <div class="ach-content"><span class="ach-date">COMMUNITY & TECH SUPPORT</span><h3>Technical Mentorship & Code Reviews</h3><p>Assisting peers with Python algorithm debugging, MongoDB query structures, and version control workflows on GitHub.</p></div>
+                    </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
+
+        <!-- SECTION 6: CERTIFICATIONS (Chopper Vibe) -->
+        <section id="certifications" class="page-section character-section chopper-theme">
+            <div class="char-bg-overlay" style="background-image: url('images/chopper.jpg');"></div>
+            <div class="section-content-wrapper">
+                <div class="section-context-tag">Section 06 / 10 • <strong>Verified Certifications (Chopper Theme)</strong></div>
+                <div class="section-header">
+                    <span class="section-tag blue-tag">CREDENTIALS ARCHIVE</span>
+                    <h2>VERIFIED <span class="gradient-blue">CERTIFICATIONS</span></h2>
+                    <p>Official technical credentials across databases, AI foundations, and core programming. Click any card to inspect verification details.</p>
+                </div>
+                <div class="cert-grid">
+                    <div class="cert-card" onclick="openCertificateModal('Building AI-Powered Search with MongoDB Vector Search', 'MongoDB, Inc (Aug 01, 2026)', 'Successfully completed Building AI-Powered Search with MongoDB Vector Search fundamentals course.', 'https://www.credly.com/badges/5436d9e0-2b05-4bf3-ba4c-393e42f845d1')">
+                        <div class="cert-ribbon">VERIFIED</div>
+                        <div class="cert-icon"><i class="fa-solid fa-magnifying-glass-chart"></i></div>
+                        <h4>Vector Search Fundamentals</h4>
+                        <span class="cert-issuer">MongoDB, Inc • Aug 01, 2026</span>
+                        <p>AI-Powered similarity search and vector indexing using MongoDB Atlas.</p>
+                        <div class="cert-footer"><span class="badge-tag">Vector Search</span><span class="badge-tag">Credly</span></div>
+                    </div>
+                    <div class="cert-card" onclick="openCertificateModal('MongoDB Basics for Students', 'MongoDB, Inc (Aug 01, 2026)', 'Completed core database CRUD operations, document modeling, indexing, and cloud cluster deployment.', 'https://www.credly.com/badges/eef5fe91-8b7d-4bb7-b071-d8e4c9c45834')">
+                        <div class="cert-ribbon">VERIFIED</div>
+                        <div class="cert-icon"><i class="fa-solid fa-database"></i></div>
+                        <h4>MongoDB Basics for Students</h4>
+                        <span class="cert-issuer">MongoDB, Inc • Aug 01, 2026</span>
+                        <p>Core database CRUD operations, document modeling, and cloud cluster setup.</p>
+                        <div class="cert-footer"><span class="badge-tag">NoSQL</span><span class="badge-tag">Credly</span></div>
+                    </div>
+                    <div class="cert-card" onclick="openCertificateModal('TCS iON Career Edge - AI Foundation', 'Tata Consultancy Services (Jul 28, 2026)', 'Covered Introduction to AI, Generative AI Essentials, Prompt Engineering Basics, AI Tools, and Responsible AI.', '279681-30054693-1016')">
+                        <div class="cert-ribbon">VERIFIED</div>
+                        <div class="cert-icon"><i class="fa-solid fa-brain"></i></div>
+                        <h4>TCS iON Career Edge - AI Foundation</h4>
+                        <span class="cert-issuer">Tata Consultancy Services • Jul 28, 2026</span>
+                        <p>Comprehensive course covering GenAI essentials, prompt engineering, and AI tools.</p>
+                        <div class="cert-footer"><span class="badge-tag">TCS iON</span><span class="badge-tag">GenAI</span></div>
+                    </div>
+                    <div class="cert-card" onclick="openCertificateModal('TCS MasterCraft DataPlus', 'Tata Consultancy Services (Jul 28, 2026)', 'Successfully completed TCS MasterCraft DataPlus DataPlus Overview Course.', 'TCS MasterCraft Academy')">
+                        <div class="cert-ribbon">VERIFIED</div>
+                        <div class="cert-icon"><i class="fa-solid fa-table-columns"></i></div>
+                        <h4>TCS MasterCraft DataPlus</h4>
+                        <span class="cert-issuer">TCS MasterCraft Academy • Jul 28, 2026</span>
+                        <p>DataPlus overview course completion certificate issued by TCS.</p>
+                        <div class="cert-footer"><span class="badge-tag">MasterCraft</span><span class="badge-tag">DataPlus</span></div>
+                    </div>
+                    <div class="cert-card" onclick="openCertificateModal('AI and Cybersecurity Awareness', 'MPIT-CoE & TCS Foundation / TCS iON (Jul 22, 2026)', 'Completed Guinness World Records AI for All initiative course on AI and Cybersecurity Awareness.', '277082-30054693-1016')">
+                        <div class="cert-ribbon">VERIFIED</div>
+                        <div class="cert-icon"><i class="fa-solid fa-shield-halved"></i></div>
+                        <h4>AI and Cybersecurity Awareness</h4>
+                        <span class="cert-issuer">TCS iON & MPIT-CoE • Jul 22, 2026</span>
+                        <p>Guinness World Records AI for All initiative training via TCS iON.</p>
+                        <div class="cert-footer"><span class="badge-tag">Cybersecurity</span><span class="badge-tag">TCS iON</span></div>
+                    </div>
+                    <div class="cert-card" onclick="openCertificateModal('Generative AI Essentials', 'MPIT-CoE & TCS Foundation / TCS iON (Jul 22, 2026)', 'Completed Generative AI Essentials course offered under the AI for All program.', '277212-30054693-1016')">
+                        <div class="cert-ribbon">VERIFIED</div>
+                        <div class="cert-icon"><i class="fa-solid fa-wand-magic-sparkles"></i></div>
+                        <h4>Generative AI Essentials</h4>
+                        <span class="cert-issuer">TCS iON & MPIT-CoE • Jul 22, 2026</span>
+                        <p>Core generative AI models and application fundamentals via TCS iON.</p>
+                        <div class="cert-footer"><span class="badge-tag">GenAI</span><span class="badge-tag">TCS iON</span></div>
+                    </div>
+                    <div class="cert-card" onclick="openCertificateModal('YUVA AI For All', 'IndiaAI & TCS iON (Feb 08, 2026)', 'Successfully completed the YUVA AI For All course through TCS ION offered by IndiaAI.', 'IndiaAI / TCS iON')">
+                        <div class="cert-ribbon">VERIFIED</div>
+                        <div class="cert-icon"><i class="fa-solid fa-microchip"></i></div>
+                        <h4>YUVA AI For All</h4>
+                        <span class="cert-issuer">IndiaAI & TCS iON • Feb 08, 2026</span>
+                        <p>National AI literacy initiative course completed via TCS iON.</p>
+                        <div class="cert-footer"><span class="badge-tag">IndiaAI</span><span class="badge-tag">AI Literacy</span></div>
+                    </div>
+                    <div class="cert-card" onclick="openCertificateModal('AI Data Strategy with MongoDB', 'MongoDB, Inc (Apr 08, 2026)', 'Completed assessments on structuring modern NoSQL data pipelines for generative AI applications.', 'MDBr2g1vcytfk')">
+                        <div class="cert-ribbon">VERIFIED</div>
+                        <div class="cert-icon"><i class="fa-solid fa-chart-line"></i></div>
+                        <h4>AI Data Strategy with MongoDB</h4>
+                        <span class="cert-issuer">MongoDB, Inc • Apr 08, 2026</span>
+                        <p>Structuring modern NoSQL data pipelines for generative AI applications.</p>
+                        <div class="cert-footer"><span class="badge-tag">AI Strategy</span><span class="badge-tag">MongoDB</span></div>
+                    </div>
+                    <div class="cert-card" onclick="openCertificateModal('Building an App with Code Agents', 'MongoDB, Inc (Apr 08, 2026)', 'Successfully completed Building an App with Code Agents course by MongoDB.', 'MDBjveam9ttcx')">
+                        <div class="cert-ribbon">VERIFIED</div>
+                        <div class="cert-icon"><i class="fa-solid fa-robot"></i></div>
+                        <h4>Building an App with Code Agents</h4>
+                        <span class="cert-issuer">MongoDB, Inc • Apr 08, 2026</span>
+                        <p>Training on building applications integrated with modern code agents.</p>
+                        <div class="cert-footer"><span class="badge-tag">Code Agents</span><span class="badge-tag">MongoDB</span></div>
+                    </div>
+                    <div class="cert-card" onclick="openCertificateModal('Code Rush 1.0 Coding Sprint', 'Babu Banarasi Das Northern India Institute of Technology (BBDNIIT)', 'Certificate of Appreciation for active participation in the BBDNIIT Code Rush 1.0 coding sprint.', 'Nov 25, 2025')">
+                        <div class="cert-ribbon" style="background:#38bdf8; color:#000;">EVENT</div>
+                        <div class="cert-icon"><i class="fa-solid fa-code"></i></div>
+                        <h4>Code Rush 1.0 Coding Sprint</h4>
+                        <span class="cert-issuer">BBDNIIT • Nov 25, 2025</span>
+                        <p>Active participation in the BBDNIIT Code Rush 1.0 Ultimate Coding Sprint.</p>
+                        <div class="cert-footer"><span class="badge-tag">BBDNIIT</span><span class="badge-tag">Coding Sprint</span></div>
+                    </div>
+                    <div class="cert-card" onclick="openCertificateModal('5 Minute Typing Test', 'Typing.com (August 4, 2026)', 'Completed 5-minute typing test averaging 27 WPM with 97% accuracy.', 'August 4, 2026')">
+                        <div class="cert-ribbon">SKILL TEST</div>
+                        <div class="cert-icon"><i class="fa-solid fa-keyboard"></i></div>
+                        <h4>Typing Speed Test Certificate</h4>
+                        <span class="cert-issuer">Typing.com • Aug 04, 2026</span>
+                        <p>Averaged 27 WPM with 97% accuracy.</p>
+                        <div class="cert-footer"><span class="badge-tag">Typing.com</span><span class="badge-tag">27 WPM</span></div>
+                    </div>
+                    <div class="cert-card" onclick="openCertificateModal('Viksit UP @ 2047 Vision Document Contribution', 'Government of Uttar Pradesh', 'Certificate of Participation for valuable suggestions provided for the Viksit UP @ 2047 vision document.', 'UP Government')">
+                        <div class="cert-ribbon" style="background:#38bdf8; color:#000;">GOVERNMENT</div>
+                        <div class="cert-icon"><i class="fa-solid fa-landmark"></i></div>
+                        <h4>Viksit UP @ 2047 Contribution</h4>
+                        <span class="cert-issuer">Government of Uttar Pradesh</span>
+                        <p>Participation certificate for contributing valuable suggestions to the Viksit UP @ 2047 Vision Document.</p>
+                        <div class="cert-footer"><span class="badge-tag">Govt Initiative</span><span class="badge-tag">Uttar Pradesh</span></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION 7: EDUCATION (Robin Vibe) -->
+        <section id="education" class="page-section character-section robin-theme">
+            <div class="char-bg-overlay" style="background-image: url('images/robin.jpg');"></div>
+            <div class="section-content-wrapper">
+                <div class="section-context-tag">Section 07 / 10 • <strong>Education & Milestones (Robin Theme)</strong></div>
+                <div class="section-header">
+                    <span class="section-tag blue-tag">HISTORIAN LIBRARY</span>
+                    <h2>ACADEMIC <span class="gradient-blue">MILESTONES</span></h2>
+                    <p>Scholarly foundation and formal educational background.</p>
+                </div>
+                <div class="achievements-timeline">
+                    <div class="ach-card">
+                        <div class="ach-icon"><i class="fa-solid fa-graduation-cap"></i></div>
+                        <div class="ach-content"><span class="ach-date">UNDERGRADUATE DEGREE</span><h3>B.Tech in Computer Science & Engineering (AI-ML)</h3><p>Currently pursuing second-year B.Tech studies at Babu Banarasi Das Northern India Institute of Technology (BBDNIIT), focusing on artificial intelligence, machine learning, and advanced algorithms.</p></div>
+                    </div>
+                    <div class="ach-card">
+                        <div class="ach-icon"><i class="fa-solid fa-award"></i></div>
+                        <div class="ach-content"><span class="ach-date">INSTITUTIONAL RECOGNITION</span><h3>Hackathons & Technical Events</h3><p>Active participant in campus coding sprints like Code Rush 1.0 and regional technical symposiums.</p></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION 8: BUILD LOG (Franky Vibe) -->
+        <section id="buildlog" class="page-section character-section franky-theme">
+            <div class="char-bg-overlay" style="background-image: url('images/franky.jpg');"></div>
+            <div class="section-content-wrapper">
+                <div class="section-context-tag">Section 08 / 10 • <strong>Build Log & Experiments (Franky Theme)</strong></div>
+                <div class="section-header">
+                    <span class="section-tag blue-tag">SHIPYARD LAB</span>
+                    <h2>BUILD LOG <span class="gradient-blue">& EXPERIMENTS</span></h2>
+                    <p>Active prototypes, side projects, and continuous technological experimentation.</p>
+                </div>
+                <div class="project-showcase">
+                    <div class="project-visual">
+                        <div class="app-mockup-header">
+                            <span class="dot red"></span><span class="dot yellow"></span><span class="dot green"></span>
+                            <span class="mockup-url">github.com/pranjaljaiswal429-sudo</span>
+                        </div>
+                        <div class="app-mockup-body">
+                            <div class="m-item"><i class="fa-solid fa-microchip"></i> Multimodal AI Assistant Architecture (In Progress)</div>
+                            <div class="m-item"><i class="fa-solid fa-terminal"></i> Python Algorithm Scripts & Automation Tools</div>
+                            <div class="m-item"><i class="fa-solid fa-database"></i> MongoDB Vector Search Data Pipelines</div>
+                        </div>
+                    </div>
+                    <div class="project-details">
+                        <div class="project-type-badge">EXPERIMENTAL R&D</div>
+                        <h3>Current Prototypes & Learning Logs</h3>
+                        <p class="project-explanation">
+                            <strong>Super SUGOI Engineering:</strong> Whenever I am not building production apps like Swalambhi, I experiment with local multimodal AI integrations, Python backend routines, and clean UI components. Everything is version-controlled and tested locally before deployment.
+                        </p>
+                        <div class="tech-pills">
+                            <span>Python R&D</span>
+                            <span>Multimodal AI</span>
+                            <span>Vector Embeddings</span>
+                        </div>
+                        <div class="project-actions">
+                            <a href="https://github.com/pranjaljaiswal429-sudo" target="_blank" class="btn-primary"><i class="fa-brands fa-github"></i> Explore GitHub Repos</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION 9: ARTS (Brook Vibe) -->
+        <section id="arts" class="page-section character-section brook-theme">
+            <div class="char-bg-overlay" style="background-image: url('images/brook.jpg');"></div>
+            <div class="section-content-wrapper">
+                <div class="section-context-tag">Section 09 / 10 • <strong>Creative Arts & Performances (Brook Theme)</strong></div>
+                <div class="section-header">
+                    <span class="section-tag blue-tag">MUSICIAN STAGE</span>
+                    <h2>CREATIVE <span class="gradient-blue">& PERFORMING ARTS</span></h2>
+                    <p>Beyond coding: active involvement in street play writing & performance, creative writing, and stage comedy.</p>
+                </div>
+                <div class="achievements-timeline">
+                    <div class="ach-card">
+                        <div class="ach-icon"><i class="fa-solid fa-users-rays"></i></div>
+                        <div class="ach-content"><span class="ach-date">STREET PLAY • WRITING & PERFORMING</span><h3>Nukkad Natak Performances & Writing</h3><p>Wrote original social-awareness scripts and actively performed in various Nukkad Natak productions on stage with our college mandali, raising social awareness and addressing critical issues.</p></div>
+                    </div>
+                    <div class="ach-card">
+                        <div class="ach-icon"><i class="fa-solid fa-pen-nib"></i></div>
+                        <div class="ach-content"><span class="ach-date">CREATIVE ARTS • INSPIRUS 4.0 (BBDNIIT)</span><h3>Story Writing & Poster Making Excellence</h3><p>Demonstrated creative writing and poster design excellence during the INSPIRUS 4.0 cultural festival at Babu Banarasi Das Northern India Institute of Technology (BBDNIIT).</p></div>
+                    </div>
+                    <div class="ach-card">
+                        <div class="ach-icon"><i class="fa-solid fa-microphone-lines"></i></div>
+                        <div class="ach-content"><span class="ach-date">STAGE COMEDY • IIT ROORKEE ZONALS</span><h3>Stand-Up Comedy Performance</h3><p>Crafted and performed an original comedic stand-up monologue titled "Bhartiya Krantikari Vidyalaya" with custom concluding shayari for the IIT Roorkee Zonals open mic stage.</p></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION 10: CONTACT (Jinbe Vibe) -->
+        <section id="contact" class="page-section character-section jinbe-theme" style="padding-bottom: 60px;">
+            <div class="char-bg-overlay" style="background-image: url('images/jinbe.jpg');"></div>
+            <div class="section-content-wrapper">
+                <div class="section-context-tag">Section 10 / 10 • <strong>Contact & Professional Helm (Jinbe Theme)</strong></div>
+                <div class="section-header">
+                    <span class="section-tag blue-tag">HELM OF THE CREW</span>
+                    <h2>LET'S BUILD <span class="gradient-blue">TOGETHER</span></h2>
+                    <p>Have a project in mind, an opportunity, or just want to connect? Reach out directly.</p>
+                </div>
+                <div class="contact-card">
+                    <div class="contact-info">
+                        <h3>Pranjal Jaiswal</h3>
+                        <p>Full-Stack Developer & B.Tech CSE (AI-ML Department) Student at Babu Banarasi Das Northern India Institute of Technology (BBDNIIT)</p>
+                        <div class="contact-links-row">
+                            <a href="mailto:pranjaljaiswal429@gmail.com" class="contact-btn"><i class="fa-solid fa-envelope"></i> Email Me</a>
+                            <a href="https://www.linkedin.com/in/pranjal-jaiswal-a1888936a" target="_blank" class="contact-btn"><i class="fa-brands fa-linkedin"></i> LinkedIn</a>
+                            <a href="https://github.com/pranjaljaiswal429-sudo" target="_blank" class="contact-btn"><i class="fa-brands fa-github"></i> GitHub</a>
+                            <a href="https://www.instagram.com/pranjal_06.15" target="_blank" class="contact-btn"><i class="fa-brands fa-instagram"></i> Instagram</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </div>
 
     <!-- JARVIS AI ASSISTANT WIDGET -->
     <div class="isekai-messenger collapsed" id="isekaiBox">
         <div class="messenger-header" onclick="toggleMessenger()">
-            <div class="sys-title">
-                <span class="sys-orb"></span>
-                <strong>[Jarvis - AI Assistant]</strong>
-            </div>
+            <div class="sys-title"><span class="sys-orb"></span><strong>[Jarvis - Portfolio Navigator]</strong></div>
             <button class="min-btn" id="minBtn"><i class="fa-solid fa-chevron-up"></i></button>
         </div>
-
         <div class="messenger-body" id="messengerBody" style="display: none;">
             <div class="chat-log" id="chatLog">
-                <div class="msg sys-msg">
-                    <strong>[Jarvis]:</strong> Hello! Click any option below to quickly learn about Pranjal:
-                </div>
+                <div class="msg sys-msg"><strong>[Jarvis]:</strong> Welcome aboard! Select any section below to jump straight to it:</div>
             </div>
             <div class="quick-prompts" style="flex-direction: column; gap: 6px;">
-                <button onclick="askJarvis('profile')" style="width:100%; text-align:left; padding:6px 10px;">👤 Who is Pranjal?</button>
-                <button onclick="askJarvis('project')" style="width:100%; text-align:left; padding:6px 10px;">💰 Swalambhi FinTech App</button>
-                <button onclick="askJarvis('certs')" style="width:100%; text-align:left; padding:6px 10px;">🏆 MongoDB & AI Certifications</button>
-                <button onclick="askJarvis('arts')" style="width:100%; text-align:left; padding:6px 10px;">🎭 Nukkad & Stand-up Comedy</button>
+                <button onclick="location.href='#about'" style="width:100%; text-align:left; padding:6px 10px;">🏴‍☠️ About Pranjal</button>
+                <button onclick="location.href='#projects'" style="width:100%; text-align:left; padding:6px 10px;">⚔️ Swalambhi FinTech App</button>
+                <button onclick="location.href='#certifications'" style="width:100%; text-align:left; padding:6px 10px;">🌸 Verified Certifications</button>
+                <button onclick="location.href='#arts'" style="width:100%; text-align:left; padding:6px 10px;">🎻 Comedy & Nukkad Natak</button>
             </div>
         </div>
     </div>
@@ -341,9 +462,7 @@
             <h2 id="modalCertTitle" style="margin-top:5px; font-size:1.5rem;">Certificate Title</h2>
             <p class="modal-sub" id="modalCertIssuer" style="color:#38bdf8; font-weight:600;">Issuer Name</p>
             <p id="modalCertDesc" style="color:#cbd5e1; font-size:1rem; line-height:1.6; margin-bottom:20px;">Description...</p>
-            <div class="verification-id-tag">
-                <i class="fa-solid fa-fingerprint"></i> <span id="modalCertId">Credential ID</span>
-            </div>
+            <div class="verification-id-tag"><i class="fa-solid fa-fingerprint"></i> <span id="modalCertId">Credential ID</span></div>
             <button class="btn-primary" style="width:100%; margin-top:20px;" onclick="closeCertModal()">Close</button>
         </div>
     </div>
@@ -356,14 +475,8 @@
             <h2>Swalambhi Bi-Weekly EMI Simulator</h2>
             <p class="modal-sub">Test the exact mathematical logic used inside the Swalambhi Microfinance App:</p>
             <div class="sim-controls">
-                <div class="input-group">
-                    <label>Loan Principal (₹)</label>
-                    <input type="number" id="loanAmt" value="10000" oninput="calculateSim()">
-                </div>
-                <div class="input-group">
-                    <label>Overdue Days (Late Fine)</label>
-                    <input type="number" id="lateDays" value="0" min="0" oninput="calculateSim()">
-                </div>
+                <div class="input-group"><label>Loan Principal (₹)</label><input type="number" id="loanAmt" value="10000" oninput="calculateSim()"></div>
+                <div class="input-group"><label>Overdue Days (Late Fine)</label><input type="number" id="lateDays" value="0" min="0" oninput="calculateSim()"></div>
             </div>
             <div class="sim-results">
                 <div class="res-item"><span>Bi-Weekly EMI (10 Cycles):</span> <strong id="emiOut">₹ 1,100</strong></div>
@@ -394,47 +507,6 @@
             } else {
                 body.style.display = 'none';
                 icon.className = 'fa-solid fa-chevron-up';
-            }
-        }
-
-        function addJarvisMessage(htmlText, userQuery = null) {
-            const chatLog = document.getElementById('chatLog');
-            if (userQuery) {
-                const uDiv = document.createElement('div');
-                uDiv.className = 'msg user-msg';
-                uDiv.innerHTML = `<strong>You:</strong> ${userQuery}`;
-                chatLog.appendChild(uDiv);
-            }
-            const sDiv = document.createElement('div');
-            sDiv.className = 'msg sys-msg';
-            sDiv.innerHTML = htmlText;
-            chatLog.appendChild(sDiv);
-            chatLog.scrollTop = chatLog.scrollHeight;
-        }
-
-        async function askJarvis(type) {
-            let queryText = "";
-            if(type === 'profile') queryText = "Who is Pranjal?";
-            else if(type === 'project') queryText = "Explain Swalambhi App";
-            else if(type === 'certs') queryText = "Show Certifications";
-            else if(type === 'arts') queryText = "Tell me about Nukkad & Comedy";
-
-            try {
-                let response = await fetch('http://127.0.0.1:8000/api/chat', {
-                    method: 'POST',
-                    headers: { 'Content-Type': 'application/json' },
-                    body: JSON.stringify({ message: type })
-                });
-                let data = await response.json();
-                addJarvisMessage("<strong>[Jarvis]:</strong> " + data.reply, queryText);
-            } catch (err) {
-                let fallbackReplies = {
-                    'profile': "Pranjal Jaiswal is a 2nd-year B.Tech CSE (AI-ML Department) student at BBDNIIT, specializing in full-stack dev and Python backends.",
-                    'project': "Swalambhi Microfinance is a cloud fintech platform featuring bi-weekly EMIs, KYC vault, and WhatsApp reminders.",
-                    'certs': "Pranjal has 12 verified technical certificates including MongoDB Vector Search and TCS iON AI.",
-                    'arts': "He actively writes and performs Nukkad Natak, poster art, story writing, and IIT Roorkee stand-up comedy."
-                };
-                addJarvisMessage("<strong>[Jarvis]:</strong> " + fallbackReplies[type], queryText);
             }
         }
 
