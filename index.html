@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pranjal Jaiswal | Portfolio & Systems</title>
+    <title>Pranjal Jaiswal | Full-Stack & Python Developer</title>
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
@@ -20,89 +20,65 @@
             <i class="fa-solid fa-terminal"></i> PRANJAL<span>.DEV</span>
         </div>
         <div class="nav-links">
-            <a href="#profile">01. Profile</a>
-            <a href="#projects">02. Projects</a>
-            <a href="#certificates">03. Certificates (12)</a>
-            <a href="#achievements">04. Extra-Curricular</a>
+            <a href="#profile">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#certificates">Certificates</a>
+            <a href="#achievements">Extracurricular</a>
+            <a href="#contact" class="nav-contact-btn">Contact</a>
         </div>
     </nav>
 
-    <!-- SECTION 1: PLAYER PROFILE -->
+    <!-- SECTION 1: PROFESSIONAL HERO PROFILE -->
     <section id="profile" class="page-section">
         <div class="hero-grid">
             <div class="hero-left">
-                <div class="isekai-alert">
-                    <span class="pulse-dot"></span> [SYSTEM: PORTFOLIO TERMINAL INITIALIZED]
+                <div class="status-badge">
+                    <span class="pulse-dot"></span> B.Tech CSE (AI-ML Department) @ Babu Banarasi Das Northern India Institute of Technology (BBDNIIT)
                 </div>
 
-                <h1>HI, I'M <span class="gradient-blue">PRANJAL JAISWAL</span></h1>
+                <h1>BUILDING SCALABLE <span class="gradient-blue">WEB SYSTEMS & PYTHON BACKENDS.</span></h1>
                 
-                <h3 class="role-subtitle">
-                    Full-Stack Developer • B.Tech 2nd Year @ <span class="text-blue">Babu Banarasi Das Northern India Institute of Technology (BBDNIIT)</span>
-                </h3>
-
                 <p class="hero-bio">
-                    Studying at Babu Banarasi Das Northern India Institute of Technology (BBDNIIT). Main ek full-stack builder aur creative technologist hu—jo cloud microfinance systems, MongoDB vector databases, aur Python AI tools design karta hu, aur stage par Nukkad Natak perform karne ke sath-sath stand-up comedy aur story writing bhi karta hai.
+                    I am a full-stack developer and second-year B.Tech student in the AI-ML Department at Babu Banarasi Das Northern India Institute of Technology (BBDNIIT). I specialize in cloud-backed web applications, MongoDB vector search architectures, and Python backends using FastAPI.
                 </p>
 
-                <div class="rpg-status-grid">
-                    <div class="rpg-stat">
-                        <span class="stat-label">INSTITUTE</span>
-                        <strong>BBDNIIT (B.Tech 2nd Yr)</strong>
-                    </div>
-                    <div class="rpg-stat">
-                        <span class="stat-label">MAIN CLASS</span>
-                        <strong>Full-Stack & AI Engineer</strong>
-                    </div>
-                    <div class="rpg-stat">
-                        <span class="stat-label">SUB-CLASS</span>
-                        <strong>Writer, Performer & Comic</strong>
-                    </div>
-                    <div class="rpg-stat">
-                        <span class="stat-label">INTERESTS</span>
-                        <strong>One Piece Lore & Architecture</strong>
-                    </div>
+                <div class="hero-quick-highlights">
+                    <div class="qh-item"><i class="fa-solid fa-code"></i> Full-Stack Architecture</div>
+                    <div class="qh-item"><i class="fa-solid fa-database"></i> MongoDB & Vector Search</div>
+                    <div class="qh-item"><i class="fa-brands fa-python"></i> Python FastAPI Backend</div>
                 </div>
 
                 <div class="hero-btns">
                     <a href="#projects" class="btn-primary">
-                        <i class="fa-solid fa-terminal"></i> Inspect My Projects
+                        <i class="fa-solid fa-rocket"></i> View Featured Projects
                     </a>
-                    <a href="#certificates" class="btn-outline">
-                        <i class="fa-solid fa-certificate"></i> View All 12 Certificates
+                    <a href="#contact" class="btn-outline">
+                        <i class="fa-regular fa-envelope"></i> Get In Touch
                     </a>
                 </div>
             </div>
 
             <div class="hero-right">
                 <div class="player-frame">
-                    <div class="frame-header">
-                        <span>STATUS: ACTIVE DEV</span>
-                        <span>LVL. 20</span>
-                    </div>
                     <div class="photo-container">
-                        <img id="userProfilePic" src="my-photo.jpg" alt="Pranjal Jaiswal">
-                        <label for="photoInput" class="upload-photo-btn">
-                            <i class="fa-solid fa-camera"></i> Change Photo
-                        </label>
-                        <input type="file" id="photoInput" accept="image/*" style="display:none" onchange="previewUserPhoto(event)">
+                        <!-- PERMANENT PHOTO: Make sure 'profile.jpg' is in your folder -->
+                        <img id="userProfilePic" src="profile.jpg" alt="Pranjal Jaiswal" onerror="this.src='https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=700&q=80'">
                     </div>
-                    <div class="frame-footer">
-                        <div class="trait-pill"><i class="fa-solid fa-code"></i> Full-Stack</div>
-                        <div class="trait-pill"><i class="fa-solid fa-brain"></i> AI Tools</div>
-                        <div class="trait-pill"><i class="fa-brands fa-python"></i> Python</div>
+                    <div class="frame-caption">
+                        <strong>Pranjal Jaiswal</strong>
+                        <small>BBDNIIT • AI-ML Department</small>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- SECTION 2: PROJECTS & MISSIONS -->
+    <!-- SECTION 2: PROJECTS & CASE STUDY -->
     <section id="projects" class="page-section">
         <div class="section-header">
-            <span class="section-tag blue-tag">SECTION 02 // DEPLOYED SYSTEMS</span>
-            <h2>COMPLETED <span class="gradient-blue">QUESTS (PROJECTS)</span></h2>
-            <p>Real-world production web apps. Click below to test the interactive EMI calculation engine.</p>
+            <span class="section-tag blue-tag">FEATURED WORK</span>
+            <h2>ENGINEERED <span class="gradient-blue">SOLUTIONS</span></h2>
+            <p>Production-ready applications built to solve real-world operational challenges with clean architecture.</p>
         </div>
 
         <div class="project-showcase">
@@ -114,48 +90,51 @@
                 <div class="app-mockup-body">
                     <div class="mockup-kpi-row">
                         <div class="kpi-card">
-                            <small>Ledger Status</small>
+                            <small>Deployment</small>
                             <h4>Cloud Hosted</h4>
-                            <span class="trend-up">Deployed on Render</span>
+                            <span class="trend-up">Render Production</span>
                         </div>
                         <div class="kpi-card">
-                            <small>EMI Engine</small>
+                            <small>Core Engine</small>
                             <h4>Bi-Weekly</h4>
-                            <span class="trend-blue">Auto Fine Calc</span>
+                            <span class="trend-blue">Automated Fines</span>
                         </div>
                     </div>
-                    <div class="m-item"><i class="fa-solid fa-id-card"></i> Aadhaar/PAN KYC + Returning Customer Auto-Fill</div>
+                    <div class="m-item"><i class="fa-solid fa-id-card"></i> Aadhaar & PAN KYC Vault with Auto-Fill</div>
                     <div class="m-item"><i class="fa-brands fa-whatsapp"></i> One-Tap WhatsApp Payment Reminders</div>
                 </div>
             </div>
 
             <div class="project-details">
-                <div class="project-type-badge">FLAGSHIP FINTECH WEB APP</div>
+                <div class="project-type-badge">CLOUD FINTECH PLATFORM</div>
                 <h3>Swalambhi Microfinance Ledger</h3>
                 <p class="project-explanation">
-                    Microfinance operations ke liye banaya gaya ek complete cloud ledger system. Isme bi-weekly EMI scheduling, automated late fine calculation, aur secure KYC tracking maujood hai.
+                    <strong>Problem & Solution:</strong> Manual ledger systems in microfinance lead to tracking errors and delayed collections. I engineered a cloud-hosted digital ledger that automates bi-weekly EMI scheduling, dynamic late fine calculations, and secure customer record keeping.
                 </p>
                 <div class="tech-pills">
-                    <span>Cloud Render</span>
-                    <span>Bi-Weekly EMI Logic</span>
-                    <span>KYC Vault</span>
-                    <span>WhatsApp API</span>
+                    <span>Node.js / Express</span>
+                    <span>Python FastAPI Backend</span>
+                    <span>MongoDB Atlas</span>
+                    <span>Render Deployment</span>
                 </div>
                 <div class="project-actions">
                     <button class="btn-blue" onclick="openAppSimulator()">
                         <i class="fa-solid fa-sliders"></i> Test Live EMI Simulator
                     </button>
+                    <a href="https://github.com/pranjaljaiswal429-sudo/swalambhi-microfinance" target="_blank" class="btn-outline">
+                        <i class="fa-brands fa-github"></i> Source Code
+                    </a>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- SECTION 3: 12 VERIFIED CERTIFICATES -->
+    <!-- SECTION 3: TECHNICAL CERTIFICATES -->
     <section id="certificates" class="page-section">
         <div class="section-header">
-            <span class="section-tag blue-tag">SECTION 03 // VERIFIED CREDENTIALS & BADGES</span>
-            <h2>TECHNICAL & PROFESSIONAL <span class="gradient-blue">CERTIFICATES (12)</span></h2>
-            <p>Official programming, database, AI, and college hackathon/coding credentials. Click any card for official verification proof.</p>
+            <span class="section-tag blue-tag">CREDENTIALS</span>
+            <h2>VERIFIED <span class="gradient-blue">CERTIFICATIONS</span></h2>
+            <p>Official technical credentials across databases, AI foundations, and core programming. Click any card to inspect verification details.</p>
         </div>
 
         <div class="cert-grid">
@@ -241,7 +220,7 @@
             </div>
 
             <div class="cert-card" onclick="openCertificateModal('Code Rush 1.0 Coding Sprint', 'Babu Banarasi Das Northern India Institute of Technology (BBDNIIT)', 'Certificate of Appreciation for active participation in the BBDNIIT Code Rush 1.0 coding sprint.', 'Nov 25, 2025')">
-                <div class="cert-ribbon" style="background:#38bdf8; color:#000;">COLLEGE EVENT</div>
+                <div class="cert-ribbon" style="background:#38bdf8; color:#000;">EVENT</div>
                 <div class="cert-icon"><i class="fa-solid fa-code"></i></div>
                 <h4>Code Rush 1.0 Coding Sprint</h4>
                 <span class="cert-issuer">BBDNIIT • Nov 25, 2025</span>
@@ -249,12 +228,12 @@
                 <div class="cert-footer"><span class="badge-tag">BBDNIIT</span><span class="badge-tag">Coding Sprint</span></div>
             </div>
 
-            <div class="cert-card" onclick="openCertificateModal('5 Minute Typing Test (27 WPM, 97% Accuracy)', 'Typing.com (August 4, 2026)', 'Completed 5-minute typing test achieving an average typing speed of 27 WPM with 97% accuracy.', 'August 4, 2026')">
+            <div class="cert-card" onclick="openCertificateModal('5 Minute Typing Test', 'Typing.com (August 4, 2026)', 'Completed 5-minute typing test averaging 27 WPM with 97% accuracy.', 'August 4, 2026')">
                 <div class="cert-ribbon">SKILL TEST</div>
                 <div class="cert-icon"><i class="fa-solid fa-keyboard"></i></div>
                 <h4>Typing Speed Test Certificate</h4>
                 <span class="cert-issuer">Typing.com • Aug 04, 2026</span>
-                <p>Achieved 27 WPM average typing speed with 97% accuracy.</p>
+                <p>Averaged 27 WPM with 97% accuracy.</p>
                 <div class="cert-footer"><span class="badge-tag">Typing.com</span><span class="badge-tag">27 WPM</span></div>
             </div>
 
@@ -269,21 +248,21 @@
         </div>
     </section>
 
-    <!-- SECTION 4: ACHIEVEMENTS & LORE -->
+    <!-- SECTION 4: EXTRACURRICULAR & ARTS -->
     <section id="achievements" class="page-section">
         <div class="section-header">
-            <span class="section-tag blue-tag">SECTION 04 // EXTRA-CURRICULAR & ARTS</span>
-            <h2>CREATIVE LORE, <span class="gradient-blue">STORY WRITING & PERFORMANCES</span></h2>
-            <p>Coding ke alawa Nukkad Natak writing & performing, poster making, story writing aur stand-up comedy mein mere active highlights.</p>
+            <span class="section-tag blue-tag">LEADERSHIP & ARTS</span>
+            <h2>EXTRACURRICULAR <span class="gradient-blue">& PERFORMANCES</span></h2>
+            <p>Beyond coding: active involvement in street play writing & performance, creative writing, and stage comedy.</p>
         </div>
 
         <div class="achievements-timeline">
             <div class="ach-card">
                 <div class="ach-icon"><i class="fa-solid fa-users-rays"></i></div>
                 <div class="ach-content">
-                    <span class="ach-date">NUKKAD NATAK • WRITING & PERFORMING</span>
-                    <h3>"Keh Diya To Maan Liya" — Street Play Production</h3>
-                    <p>Wrote original social-awareness chorus scripts and actively performed in our college <em>Nukkad Natak mandali</em> on stage, challenging blind faith and rigid societal expectations.</p>
+                    <span class="ach-date">STREET PLAY • WRITING & PERFORMING</span>
+                    <h3>Nukkad Natak Performances & Writing</h3>
+                    <p>Wrote original social-awareness scripts and actively performed in various Nukkad Natak productions on stage with our college mandali, raising social awareness and addressing critical issues.</p>
                 </div>
             </div>
 
@@ -292,67 +271,80 @@
                 <div class="ach-content">
                     <span class="ach-date">CREATIVE ARTS • INSPIRUS 4.0 (BBDNIIT)</span>
                     <h3>Story Writing & Poster Making Excellence</h3>
-                    <p>Successfully participated and demonstrated creative excellence in <strong>Poster Making</strong> and <strong>Story Writing</strong> during the INSPIRUS 4.0 cultural festival at BBDNIIT.</p>
+                    <p>Demonstrated creative writing and poster design excellence during the INSPIRUS 4.0 cultural festival at Babu Banarasi Das Northern India Institute of Technology (BBDNIIT).</p>
                 </div>
             </div>
 
             <div class="ach-card">
                 <div class="ach-icon"><i class="fa-solid fa-microphone-lines"></i></div>
                 <div class="ach-content">
-                    <span class="ach-date">AUGUST 2026 • STAND-UP COMEDY STAGE</span>
-                    <h3>IIT Roorkee Zonals — Open Mic Routine</h3>
-                    <p>Crafted and performed an original comedic stand-up monologue titled <strong>"Bhartiya Krantikari Vidyalaya"</strong> with custom concluding shayari for the IIT Roorkee Zonals open mic stage.</p>
+                    <span class="ach-date">STAGE COMEDY • IIT ROORKEE ZONALS</span>
+                    <h3>Stand-Up Comedy Performance</h3>
+                    <p>Crafted and performed an original comedic stand-up monologue titled "Bhartiya Krantikari Vidyalaya" with custom concluding shayari for the IIT Roorkee Zonals open mic stage.</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- ASSISTANT AI MESSENGER WIDGET -->
-    <div class="isekai-messenger" id="isekaiBox">
+    <!-- SECTION 5: CONTACT & FOOTER -->
+    <section id="contact" class="page-section" style="padding-bottom: 60px;">
+        <div class="section-header">
+            <span class="section-tag blue-tag">GET IN TOUCH</span>
+            <h2>LET'S BUILD <span class="gradient-blue">TOGETHER</span></h2>
+            <p>Have a project in mind, an opportunity, or just want to connect? Reach out directly.</p>
+        </div>
+
+        <div class="contact-card">
+            <div class="contact-info">
+                <h3>Pranjal Jaiswal</h3>
+                <p>Full-Stack Developer & B.Tech CSE (AI-ML Department) Student at Babu Banarasi Das Northern India Institute of Technology (BBDNIIT)</p>
+                <div class="contact-links-row">
+                    <a href="mailto:pranjaljaiswal429@gmail.com" class="contact-btn"><i class="fa-solid fa-envelope"></i> Email Me</a>
+                    <a href="https://www.linkedin.com/in/pranjal-jaiswal-a1888936a" target="_blank" class="contact-btn"><i class="fa-brands fa-linkedin"></i> LinkedIn</a>
+                    <a href="https://github.com/pranjaljaiswal429-sudo" target="_blank" class="contact-btn"><i class="fa-brands fa-github"></i> GitHub</a>
+                    <a href="https://www.instagram.com/pranjal_06.15" target="_blank" class="contact-btn"><i class="fa-brands fa-instagram"></i> Instagram</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- JARVIS AI ASSISTANT WIDGET -->
+    <div class="isekai-messenger collapsed" id="isekaiBox">
         <div class="messenger-header" onclick="toggleMessenger()">
             <div class="sys-title">
                 <span class="sys-orb"></span>
-                <strong>[PRANJAL'S AI ASSISTANT]</strong>
+                <strong>[Jarvis - AI Assistant]</strong>
             </div>
-            <button class="min-btn" id="minBtn"><i class="fa-solid fa-chevron-down"></i></button>
+            <button class="min-btn" id="minBtn"><i class="fa-solid fa-chevron-up"></i></button>
         </div>
 
-        <div class="messenger-body" id="messengerBody">
+        <div class="messenger-body" id="messengerBody" style="display: none;">
             <div class="chat-log" id="chatLog">
                 <div class="msg sys-msg">
-                    <strong>[ASSISTANT]:</strong> Hello! Welcome to Pranjal Jaiswal's portfolio. Yahan 12 verified technical aur professional certificates display ho rahe hain! Kisi par bhi click karke proof dekh sakte hain.
+                    <strong>[Jarvis]:</strong> Hello! Click any option below to quickly learn about Pranjal:
                 </div>
             </div>
-
-            <div class="quick-prompts">
-                <button onclick="askAssistant('Tell me about Pranjal')">👤 About Pranjal</button>
-                <button onclick="askAssistant('Show Tech Certificates')">🏆 All 12 Certs</button>
-                <button onclick="askAssistant('Tell me about Nukkad and Poster Making')">🎭 Nukkad & Arts</button>
-                <button onclick="askAssistant('Explain Swalambhi App')">💰 Swalambhi App</button>
-            </div>
-
-            <div class="chat-input-row">
-                <input type="text" id="userChatInput" placeholder="Ask about Pranjal..." onkeypress="handleChatKey(event)">
-                <button onclick="sendCustomChat()"><i class="fa-solid fa-paper-plane"></i></button>
+            <div class="quick-prompts" style="flex-direction: column; gap: 6px;">
+                <button onclick="askJarvis('profile')" style="width:100%; text-align:left; padding:6px 10px;">👤 Who is Pranjal?</button>
+                <button onclick="askJarvis('project')" style="width:100%; text-align:left; padding:6px 10px;">💰 Swalambhi FinTech App</button>
+                <button onclick="askJarvis('certs')" style="width:100%; text-align:left; padding:6px 10px;">🏆 MongoDB & AI Certifications</button>
+                <button onclick="askJarvis('arts')" style="width:100%; text-align:left; padding:6px 10px;">🎭 Nukkad & Stand-up Comedy</button>
             </div>
         </div>
     </div>
 
     <!-- CERTIFICATE VIEW MODAL -->
     <div id="certModal" class="modal">
-        <div class="modal-box cert-modal-box">
+        <div class="modal-box">
             <span class="close-btn" onclick="closeCertModal()">&times;</span>
-            <div class="modal-badge">OFFICIAL VERIFICATION PROOF</div>
-            <h2 id="modalCertTitle" style="margin-top:5px; font-size:1.6rem;">Certificate Title</h2>
+            <div class="modal-badge">VERIFICATION PROOF</div>
+            <h2 id="modalCertTitle" style="margin-top:5px; font-size:1.5rem;">Certificate Title</h2>
             <p class="modal-sub" id="modalCertIssuer" style="color:#38bdf8; font-weight:600;">Issuer Name</p>
-            
-            <div class="cert-proof-box">
-                <p id="modalCertDesc" style="color:#cbd5e1; font-size:1.05rem; line-height:1.6; margin-bottom:20px;">Certificate detailed description goes here...</p>
-                <div class="verification-id-tag">
-                    <i class="fa-solid fa-fingerprint"></i> <span id="modalCertId">ID: VERIFIED-PRANJAL-2026</span>
-                </div>
+            <p id="modalCertDesc" style="color:#cbd5e1; font-size:1rem; line-height:1.6; margin-bottom:20px;">Description...</p>
+            <div class="verification-id-tag">
+                <i class="fa-solid fa-fingerprint"></i> <span id="modalCertId">Credential ID</span>
             </div>
-            <button class="btn-primary" style="width:100%; margin-top:20px;" onclick="closeCertModal()">Close Verification View</button>
+            <button class="btn-primary" style="width:100%; margin-top:20px;" onclick="closeCertModal()">Close</button>
         </div>
     </div>
 
@@ -363,7 +355,6 @@
             <div class="modal-badge">INTERACTIVE MODULE</div>
             <h2>Swalambhi Bi-Weekly EMI Simulator</h2>
             <p class="modal-sub">Test the exact mathematical logic used inside the Swalambhi Microfinance App:</p>
-
             <div class="sim-controls">
                 <div class="input-group">
                     <label>Loan Principal (₹)</label>
@@ -374,20 +365,10 @@
                     <input type="number" id="lateDays" value="0" min="0" oninput="calculateSim()">
                 </div>
             </div>
-
             <div class="sim-results">
-                <div class="res-item">
-                    <span>Bi-Weekly EMI (10 Cycles):</span>
-                    <strong id="emiOut">₹ 1,100</strong>
-                </div>
-                <div class="res-item">
-                    <span>Late Penalty (₹50 / Day):</span>
-                    <strong id="fineOut" class="text-danger">₹ 0</strong>
-                </div>
-                <div class="res-item total-row">
-                    <span>Total Amount Due:</span>
-                    <strong id="totalOut" class="text-success">₹ 1,100</strong>
-                </div>
+                <div class="res-item"><span>Bi-Weekly EMI (10 Cycles):</span> <strong id="emiOut">₹ 1,100</strong></div>
+                <div class="res-item"><span>Late Penalty (₹50 / Day):</span> <strong id="fineOut" class="text-danger">₹ 0</strong></div>
+                <div class="res-item total-row"><span>Total Amount Due:</span> <strong id="totalOut" class="text-success">₹ 1,100</strong></div>
             </div>
             <button class="btn-primary" style="width:100%" onclick="closeSimulator()">Close Simulator</button>
         </div>
@@ -395,30 +376,28 @@
 
     <!-- JAVASCRIPT LOGIC -->
     <script>
-        function previewUserPhoto(event) {
-            const file = event.target.files[0];
-            if (file) {
-                const reader = new FileReader();
-                reader.onload = function(e) {
-                    document.getElementById('userProfilePic').src = e.target.result;
-                    addAssistantMessage("<strong>[SYSTEM UPDATE]:</strong> Pranjal Jaiswal avatar successfully updated! 🔥");
-                };
-                reader.readAsDataURL(file);
-            }
-        }
-
         function openCertificateModal(title, issuer, desc, certId) {
             document.getElementById('modalCertTitle').innerText = title;
             document.getElementById('modalCertIssuer').innerText = issuer;
             document.getElementById('modalCertDesc').innerText = desc;
-            document.getElementById('modalCertId').innerText = "Verification ID / Credential: " + certId;
+            document.getElementById('modalCertId').innerText = "ID / Credential: " + certId;
             document.getElementById('certModal').style.display = 'flex';
         }
-        function closeCertModal() {
-            document.getElementById('certModal').style.display = 'none';
+        function closeCertModal() { document.getElementById('certModal').style.display = 'none'; }
+
+        function toggleMessenger() {
+            const body = document.getElementById('messengerBody');
+            const icon = document.querySelector('#minBtn i');
+            if (body.style.display === 'none') {
+                body.style.display = 'block';
+                icon.className = 'fa-solid fa-chevron-down';
+            } else {
+                body.style.display = 'none';
+                icon.className = 'fa-solid fa-chevron-up';
+            }
         }
 
-        function addAssistantMessage(htmlText, userQuery = null) {
+        function addJarvisMessage(htmlText, userQuery = null) {
             const chatLog = document.getElementById('chatLog');
             if (userQuery) {
                 const uDiv = document.createElement('div');
@@ -433,40 +412,29 @@
             chatLog.scrollTop = chatLog.scrollHeight;
         }
 
-        function askAssistant(topic) {
-            let reply = "";
-            const q = topic.toLowerCase();
-            if (q.includes("pranjal") || q.includes("who") || q.includes("college") || q.includes("bbdniit")) {
-                reply = "<strong>[ASSISTANT]:</strong> Pranjal Jaiswal is a 2nd-year B.Tech CSE student at Babu Banarasi Das Northern India Institute of Technology (BBDNIIT). He specializes in full-stack web apps and AI tools.";
-            } else if (q.includes("swalambhi") || q.includes("microfinance")) {
-                reply = "<strong>[ASSISTANT]:</strong> <strong>Swalambhi Microfinance</strong> is Pranjal's cloud fintech ledger app featuring bi-weekly EMIs, KYC vault, and WhatsApp alerts.";
-            } else if (q.includes("tech") || q.includes("mongodb") || q.includes("vector") || q.includes("certificate") || q.includes("tcs") || q.includes("12")) {
-                reply = "<strong>[ASSISTANT]:</strong> Pranjal has an impressive collection of 12 verified certificates including MongoDB Vector Search, TCS iON AI Foundation, MasterCraft, BBDNIIT Code Rush, and more!";
-            } else if (q.includes("nukkad") || q.includes("poster") || q.includes("story") || q.includes("comedy")) {
-                reply = "<strong>[ASSISTANT]:</strong> Pranjal writes and performs Nukkad Natak ('Keh Diya To Maan Liya'), excels in Story Writing & Poster Making at INSPIRUS 4.0, and performs stand-up comedy!";
-            } else {
-                reply = "<strong>[ASSISTANT]:</strong> Scroll through the sections or click any of the 12 certificate cards to inspect the official verification proofs!";
-            }
-            addAssistantMessage(reply, topic);
-        }
+        async function askJarvis(type) {
+            let queryText = "";
+            if(type === 'profile') queryText = "Who is Pranjal?";
+            else if(type === 'project') queryText = "Explain Swalambhi App";
+            else if(type === 'certs') queryText = "Show Certifications";
+            else if(type === 'arts') queryText = "Tell me about Nukkad & Comedy";
 
-        function sendCustomChat() {
-            const input = document.getElementById('userChatInput');
-            const text = input.value.trim();
-            if (!text) return;
-            askAssistant(text);
-            input.value = "";
-        }
-        function handleChatKey(e) { if (e.key === 'Enter') sendCustomChat(); }
-        function toggleMessenger() {
-            const body = document.getElementById('messengerBody');
-            const icon = document.querySelector('#minBtn i');
-            if (body.style.display === 'none') {
-                body.style.display = 'block';
-                icon.className = 'fa-solid fa-chevron-down';
-            } else {
-                body.style.display = 'none';
-                icon.className = 'fa-solid fa-chevron-up';
+            try {
+                let response = await fetch('http://127.0.0.1:8000/api/chat', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ message: type })
+                });
+                let data = await response.json();
+                addJarvisMessage("<strong>[Jarvis]:</strong> " + data.reply, queryText);
+            } catch (err) {
+                let fallbackReplies = {
+                    'profile': "Pranjal Jaiswal is a 2nd-year B.Tech CSE (AI-ML Department) student at BBDNIIT, specializing in full-stack dev and Python backends.",
+                    'project': "Swalambhi Microfinance is a cloud fintech platform featuring bi-weekly EMIs, KYC vault, and WhatsApp reminders.",
+                    'certs': "Pranjal has 12 verified technical certificates including MongoDB Vector Search and TCS iON AI.",
+                    'arts': "He actively writes and performs Nukkad Natak, poster art, story writing, and IIT Roorkee stand-up comedy."
+                };
+                addJarvisMessage("<strong>[Jarvis]:</strong> " + fallbackReplies[type], queryText);
             }
         }
 
